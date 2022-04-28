@@ -1,0 +1,70 @@
+div.container{
+    display: flex;
+    background-color: #0B2434;
+    height: 100vh;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+}
+
+main{
+    background-color: #F5F5F5;
+    height: 80%;
+    width: 60%;
+    border-radius: 1rem;
+    justify-content: center;
+    align-items: center;
+    align-content: center;
+}
+
+
+div.main-content{
+    display: grid;                            
+    grid-template-columns: repeat(5, 10px);
+    grid-auto-rows: 5px;                     
+    grid-gap: 8rem;
+    grid-auto-rows: 2; 
+    padding-right: 2rem;
+    margin-top: 10rem;
+    justify-content: center;
+    align-items: center;
+    align-content: center;
+}
+
+button.reroll{
+    display: block;
+    margin-left: 160px;
+    width: 300px;
+    height: 70px;
+    border-radius: 0.5rem;
+    background-color: #5035FF;
+    font-weight: bold;
+    font-size: 2rem;
+    color: white;
+    border:1px solid white;
+    cursor: pointer;
+}
+.reroll:active {
+    box-shadow: inset 5px 5px 10px -3px rgba(0, 0, 0, 0.7);
+}
+
+.reroll:focus {
+    outline: none;
+}
+
+.title {
+    font-size: 40px;
+    margin: 0;
+}
+
+.instructions {
+    font-family: 'Inter', sans-serif;
+    font-weight: 400;
+    margin-top: 0;
+    text-align: center;
+}
+
+.info{
+    margin-top: 5rem;
+}
+
